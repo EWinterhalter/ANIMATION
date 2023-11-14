@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Анимашка</title>
+    <meta charset="utf-8" />
+    <style type="text/css">
+.MEOW1 {
+    height: 100px;
+    width: 100px;
+	background: #ffffff;
+	color: #000000;
+	font-size: 40px;
+	transition: all 500ms ease; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.MEOW2 {
+    height: 100px;
+    width: 100px;
+	background: #ffffff;
+	color: #000000;
+	font-size: 40px;
+	transition: all 500ms ease; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display:none;
+}
+.banner {
+    height: 100%;
+    width: 100%;
+}
+.banner:hover .MEOW1{
+    display:none;
+}
+.banner:hover .MEOW2{
+    display:block;
+}
+    </style>
+</head>
+<body>
+    <div class="banner">
+        <div class="animated">
+            <div class="MEOW1">⸜(*ˊωˋ*)⸝</div>
+            <div class="MEOW2">⸜(*ˊᗜˋ*)⸝</div>
+        </div>
+    </div>
+</body>
+</html>
